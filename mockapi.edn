@@ -1,0 +1,18 @@
+{
+ "/api/users" {:post {:json ""
+                      :code (conj "1" "2")}
+               :put {}
+               :get {}}
+}
+[
+ {}
+ {:method "post"
+  :url "/api/users"
+  :response {:a "aa"
+             :b "bb"}}
+ 
+ {:method "get"
+  :url "/api/users"
+  :response {:a "aa"
+             :b "bb"}}
+ ]
